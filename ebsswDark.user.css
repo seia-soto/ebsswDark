@@ -64,6 +64,10 @@
     color: #dcddde !important;
   }
 
+  /*
+   * toastUiEditorViewer
+   */
+
   div#toastUiEditorViewer > div.tui-editor-contents > ul > li,
   div#toastUiEditorViewer > div.tui-editor-contents > ol > li
   {
@@ -74,5 +78,10 @@
   {
     background: #2c2f33 !important;
     border: 0 !important;
+  }
+
+  ul.choice > li > label
+  {
+    color: #dcddde !important;
   }
 }
