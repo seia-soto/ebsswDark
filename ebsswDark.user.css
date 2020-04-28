@@ -35,7 +35,8 @@
   nav,
   aside.navigation.sidebar,
   div.ordlst > a,
-  a[id*="leftLctre"]
+  a[id*="leftLctre"],
+  nav > ul > li > a
   {
     background: #23272a !important;
     color: #dcddde !important;
@@ -43,14 +44,15 @@
     border-bottom: 0 !important;
   }
 
-  div.contentWrap {
-    background: #2c2f33;
-  }
-
   /*
    * Page main content
    */
 
+  body,
+  div.contentWrap
+  {
+   background: #2c2f33;
+  }
 
   div#cntntsDiv,
 
@@ -66,5 +68,11 @@
   div#toastUiEditorViewer > div.tui-editor-contents > ol > li
   {
     color: #99aab5 !important;
+  }
+
+  div#toastUiEditorViewer
+  {
+    background: #2c2f33 !important;
+    border: 0 !important;
   }
 }
