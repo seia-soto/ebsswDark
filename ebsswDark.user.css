@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name           EBSsw Dark
+@namespace      github.com/Seia-Soto/ebsswDark
+@version        0.0.1
+@homepageURL    https://github.com/Seia-Soto/ebsswDark
+@updateURL      https://github.com/Seia-Soto/ebsswDark/raw/master/ebsswDark.user.css
+@description    Make ebssw site *dark*.
+@author         Seia-Soto
+==/UserStyle== */
+
+@-moz-document regexp("https:\/\/\w*\.ebssw\.kr\/mypage\/userlrn\/userLrnView\.do[\w\W]*") {
+  /*
+   * Header
+   */
+
+  header#learn_header {
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4)
+  }
+
+  /*
+   * Navigation
+   */
+
+  nav,
+  aside.navigation.sidebar
+  {
+    border-right: 0 !important;
+  }
+
+  div.ordlst
+  {
+    border-bottom: 1px solid #99aab5 !important;
+  }
+
+  nav,
+  aside.navigation.sidebar,
+  div.ordlst > a,
+  a[id*="leftLctre"]
+  {
+    background: #23272a !important;
+    color: #dcddde !important;
+
+    border-bottom: 0 !important;
+  }
+
+  div.contentWrap {
+    background: #2c2f33;
+  }
+
+  /*
+   * Page main content
+   */
+
+
+  div#cntntsDiv,
+
+  div.tit_top,
+  div.q_wrap,
+  p,
+  strong.content_tit
+  {
+    color: #dcddde !important;
+  }
+
+  div#toastUiEditorViewer > div.tui-editor-contents > ul > li,
+  div#toastUiEditorViewer > div.tui-editor-contents > ol > li
+  {
+    color: #99aab5 !important;
+  }
+}
