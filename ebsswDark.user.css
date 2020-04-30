@@ -69,7 +69,14 @@
    */
 
   div#toastUiEditorViewer > div.tui-editor-contents > ul > li,
-  div#toastUiEditorViewer > div.tui-editor-contents > ol > li
+  div#toastUiEditorViewer > div.tui-editor-contents > ol > li,
+  div#toastUiEditorViewer > div.tui-editor-contents > h1,
+  div#toastUiEditorViewer > div.tui-editor-contents > h2,
+  div#toastUiEditorViewer > div.tui-editor-contents > h3,
+  div#toastUiEditorViewer > div.tui-editor-contents > h4,
+  div#toastUiEditorViewer > div.tui-editor-contents > h5,
+  div#toastUiEditorViewer > div.tui-editor-contents > h6
+  div#toastUiEditorViewer > div.tui-editor-contents > p
   {
     color: #99aab5 !important;
   }
