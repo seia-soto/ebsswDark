@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           EBSsw Dark
 @namespace      github.com/Seia-Soto/ebsswDark
-@version        0.0.3
+@version        0.0.4
 @homepageURL    https://github.com/Seia-Soto/ebsswDark
 @updateURL      https://github.com/Seia-Soto/ebsswDark/raw/master/ebsswDark.user.css
 @description    Make ebssw site *dark*.
@@ -59,7 +59,7 @@
   div.tit_top,
   div.q_wrap,
   p,
-  h1, h2, h3, h4, h5, h6
+  h1, h2, h3, h4, h5, h6,
   strong.content_tit
   {
     color: #dcddde !important;
@@ -70,7 +70,7 @@
    */
 
   div#toastUiEditorViewer > div.tui-editor-contents > ul > li,
-  div#toastUiEditorViewer > div.tui-editor-contents > ol > li,
+  div#toastUiEditorViewer > div.tui-editor-contents > ol > li
   {
     color: #99aab5 !important;
   }
